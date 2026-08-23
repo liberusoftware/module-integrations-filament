@@ -3,7 +3,7 @@
   "name": "integrations-filament",
   "display_name": "Integrations Filament",
   "description": "Integrations filament presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\IntegrationsFilament\\IntegrationsFilamentServiceProvider",
   "requires": {
@@ -31,4 +31,3 @@
     }
   }
 }
-
