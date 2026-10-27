@@ -10,15 +10,5 @@ final class Overview extends Page
 {
     protected string $view = 'integrations-filament::overview';
 
-    protected static ?string $slug = 'overview-integrations';
-
-    public static function getNavigationLabel(): string
-    {
-        return __('filament.pages.integrations');
-    }
-
-    public function getTitle(): string
-    {
-        return __('filament.pages.integrations');
-    }
+    protected static ?string $title = 'Integrations';
 }
